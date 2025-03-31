@@ -4,6 +4,7 @@ import tseslint from "typescript-eslint";
 import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginReact from "eslint-plugin-react";
 import globals from "globals";
+import customEslint from "./rules/index.js";
 import { config as baseConfig } from "./base.js";
 
 /**
@@ -28,12 +29,15 @@ export const config = [
   {
     plugins: {
       "react-hooks": pluginReactHooks,
+      "custom-eslint": customEslint,
     },
     settings: { react: { version: "detect" } },
     rules: {
       ...pluginReactHooks.configs.recommended.rules,
       // React scope no longer necessary with new JSX transform.
       "react/react-in-jsx-scope": "off",
+      "custom-eslint/missing-component-test": "warn",
+      "custom-eslint/no-kit-import": "warn",
     },
   },
 ];
