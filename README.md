@@ -1,4 +1,4 @@
-# 🚀 AlmatyJS Meetup Light
+# 🚀 AlmatyJS Light #6
 
 ![Logo](https://github.com/woovik/eslint-almatyjs/blob/main/logo.jpg)
 
