@@ -14,6 +14,7 @@
 ## 📚 Полезные ссылки
 - [📘Документация ESLint по кастомным правилам](https://eslint.org/docs/latest/extend/custom-rules)
 - [🧠AST Explorer](https://astexplorer.net/)
+- [🛠️ESLint Playground](https://eslint.org/play/)
 - [📦eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
 
 ## Кастомные правила
